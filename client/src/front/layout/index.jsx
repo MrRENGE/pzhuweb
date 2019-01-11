@@ -10,7 +10,7 @@ export default class Layout extends Component {
       <div className="container">
         <div className="nav-bar">
           <div className="nav-bar-left">
-            <a class="app-logo" href="/" target="_self">Web应用专业团队</a>
+            <a className="app-logo" href="/" target="_self">Web应用专业团队</a>
             <div className="nav-bar-menu">
               <div className="nav-bar-menu-item">菜单1</div>
               <div className="nav-bar-menu-item">菜单2</div>
