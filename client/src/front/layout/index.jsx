@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Avatar, Input } from "antd";
+import { Avatar, Input, BackTop } from "antd";
 
 import "./index.scss";
 
@@ -8,6 +8,9 @@ export default class Layout extends Component {
   render() {
     return (
       <div className="container">
+        {/* 回到顶部 */}
+        <BackTop visibilityHeight={100} />
+
         <div className="nav-bar">
           <div className="nav-bar-left">
             <a className="app-logo" href="/" target="_self">Web应用专业团队</a>
@@ -32,7 +35,9 @@ export default class Layout extends Component {
           </div>
         </div>
         <div className="content">{this.props.children}</div>
-        <div className="footer" />
+        <div className="footer">dsadsadas</div>
+
+        
       </div>
     );
   }
