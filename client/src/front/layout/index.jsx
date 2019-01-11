@@ -36,8 +36,6 @@ export default class Layout extends Component {
         </div>
         <div className="content">{this.props.children}</div>
         <div className="footer">dsadsadas</div>
-
-        
       </div>
     );
   }
