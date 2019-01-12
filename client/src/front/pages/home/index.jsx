@@ -8,11 +8,11 @@ export default class Home extends Component {
   state = {
     bannerInfo: [
       {
-        img: img1,
+        img: img2,
         description: "这是一段描述"
       },
       {
-        img: img2,
+        img: img1,
         description: "这是一段描述2"
       }
     ]
