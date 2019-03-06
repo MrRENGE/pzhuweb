@@ -52,8 +52,8 @@
   }
 
   .content {
-    width: 1200px;
-    margin: 70px auto 40px;
+    width: 100%;
+    margin: 70px 0px 0px;
     position: relative;
     min-height: 600px;
   }
@@ -116,4 +116,41 @@
       }
     }
   } 
+}
+$height:80vh;
+/* For demo */
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: $height;
+  line-height: $height;
+  background: #364d79;
+  background-image: url('../pages/home/banner1.jpg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+
+/* 展示区*/
+.slide-one{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.slide-one .slide-image{
+  width: 60%;
+  height: $height;
+}
+
+.silde-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: $height;
+  background: lightblue;
+  align-content: center;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router";
-import { Avatar, Input, BackTop } from "antd";
+import { Avatar, Input, BackTop, Button  } from "antd";
 
 import "./index.scss";
 
@@ -15,13 +15,15 @@ export default class Layout extends Component {
         <div className="nav-bar">
           <div className="nav-bar-left">
             <a className="app-logo" href="/" target="_self">
-              Web应用专业团队
+              Web Team
             </a>
             <div className="nav-bar-menu">
               <div className="nav-bar-menu-item">技术交流</div>
               <div className="nav-bar-menu-item">新闻动态</div>
               <div className="nav-bar-menu-item">成员展示</div>
               <div className="nav-bar-menu-item">成果展示</div>
+  
+        
             </div>
           </div>
           <div className="nav-bar-right">
@@ -31,6 +33,7 @@ export default class Layout extends Component {
               onSearch={value => console.log(value)}
               style={{ width: 200 }}
             />
+            <span>注册</span>/<span>登录</span>
             <Avatar
               className="nav-bar-right-avator"
               size="large"

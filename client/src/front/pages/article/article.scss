@@ -1,0 +1,42 @@
+  
+.edit {
+    display:flex;
+    flex-direction:row;
+
+    overflow: scroll;    
+}
+.edit .editContent {
+    width: 60%;
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+.edit .showContent {
+    margin-top: 137px;
+    width: 40%;
+    background-clip: content-box;
+    height: 300px;
+    background:lightcoral;
+    overflow:scroll;
+    border: 1px solid grey;
+} 
+
+.ediet-function {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 40px;
+    line-height: 40px;
+}
+.ediet-function .ant-input {
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+}
+.ediet-function .ant-btn{
+    height: 40px;
+    line-height: 40px;
+}
+.no-border-btn {
+    border: none;
+}
