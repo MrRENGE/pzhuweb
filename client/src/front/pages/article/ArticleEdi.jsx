@@ -136,8 +136,9 @@ class ArticleEdi extends React.Component {
             value={editorState}
             onChange={this.handleChange}
             onSave={this.saveArticle}
-            contentStyle={{height: 300, boxShadow: 'inset 0 1px 3px rgba(0,0,0,.1)',background:'#abcdef'}}
+            contentStyle={{height: 400, boxShadow: 'inset 0 1px 3px rgba(0,0,0,.1)',background:'#abcdef'}}
             extendControls ={extendControls}
+            
           />
         </div>  
       </div>

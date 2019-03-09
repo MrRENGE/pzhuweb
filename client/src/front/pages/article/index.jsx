@@ -52,9 +52,10 @@ class index extends React.Component {
                         </Collapse>
                     </div>
                 </div>
-                <div className='edit-area'>
-                    <ArticleEdi onSbumit ={this.onSbumit}></ArticleEdi>
-                </div>
+                {/* <div className='edit-area'>
+                    
+                </div> */}
+                <ArticleEdi onSbumit ={this.onSbumit} className="ediet"></ArticleEdi>
             </div>
         );
     }

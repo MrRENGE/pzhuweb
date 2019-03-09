@@ -2,24 +2,15 @@
 .edit {
     display:flex;
     flex-direction:row;
-
     overflow: scroll;    
 }
 .edit .editContent {
-    width: 60%;
+    width: 100%;
     height: 100%;
     margin-bottom: 0px;
 }
 
-.edit .showContent {
-    margin-top: 137px;
-    width: 40%;
-    background-clip: content-box;
-    height: 300px;
-    background:lightcoral;
-    overflow:scroll;
-    border: 1px solid grey;
-} 
+ 
 
 .ediet-function {
     display: flex;
@@ -39,4 +30,22 @@
 }
 .no-border-btn {
     border: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    scroll-behavior: unset;
+    margin-bottom: 0px;
+}
+.edit-area{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: red;
+    margin-bottom: 0px;
+}
+.ediet{
+    margin-bottom: 0px;
 }
