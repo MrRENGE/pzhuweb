@@ -13,10 +13,12 @@
  
 .ediet-function {
     display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 40px;
-    line-height: 40px;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+    height: 50px;
+		line-height: 50px;
+		border-bottom: 0.5px solid rgb(226, 221, 221);
 }
 .ediet-function .ant-input {
     width: 70%;
@@ -51,4 +53,11 @@
     margin-bottom: 0px;
 }
 
+.hover:hover{
+	cursor: pointer;
+}
 
+.centerLayout{
+	text-align: center;
+	
+}

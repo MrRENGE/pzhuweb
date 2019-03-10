@@ -93,7 +93,6 @@ class ArticleEdi extends React.Component {
 		if (window.previewWindow) {
 			window.previewWindow.close();
 		}
-
 		window.previewWindow = window.open();
 		window.previewWindow.document.write(this.buildPreviewHtml());
 		window.previewWindow.document.close();
